@@ -2,12 +2,12 @@
 
 FragTrap::FragTrap()
 {
-    std::cout << "ScavTrap Constructor called" << std::endl;
+    std::cout << "FragTrap Constructor called" << std::endl;
 }
 
 FragTrap::~FragTrap()
 {
-    std::cout << "ScavTrap Destructor called" << std::endl;
+    std::cout << "FragTrap Destructor called" << std::endl;
 }
 
 FragTrap::FragTrap(std::string name) : ClapTrap(name)
@@ -16,7 +16,7 @@ FragTrap::FragTrap(std::string name) : ClapTrap(name)
     this->setEp(50);
     this->setHp(100);
     this->setName(name);
-    std::cout << "ScavTrap Copy Constructor called" << std::endl;
+    std::cout << "FragTrap Copy Constructor called" << std::endl;
 }
 
 FragTrap::FragTrap(const FragTrap &copy) : ClapTrap(copy)
